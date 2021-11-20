@@ -7,7 +7,6 @@ title: "Оборудование"
 description: "... О больших возможностях наших приборов ..."
 bg_image: "images/bg-pexels-hebert-santos.jpg"
 
-
 equipment:
   enable: true
   title: "Инфраструктура лаборатории"
