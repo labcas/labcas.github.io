@@ -1,0 +1,92 @@
+############# English navigation ##############
+
+# main menu
+  [[main]]
+  name = "Home"
+  url = ""
+  weight = 1
+
+  [[main]]
+      name = "Staff"
+      url = "/staff/"
+      weight = 2
+
+  [[main]]
+      identifier = "research"
+      name = "Research"
+      url = "/research/"
+      weight = 4
+
+      [[main]]
+          parent = "research"
+          name = "Topics"
+          url = "/topics/"
+          weight = 1
+
+      [[main]]
+          parent = "research"
+          name = "Plan"
+          url = "/plan/"
+          weight = 2
+
+      [[main]]
+          parent = "research"
+          name = "Results"
+          url = "/results/"
+          weight = 3
+
+      [[main]]
+          parent = "research"
+          name = "Publications"
+          url = "/publications/"
+          weight = 4
+
+  [[main]]
+      name = "Equipment"
+      url = "/equipment/"
+      weight = 5
+
+  [[main]]
+      name = "Events"
+      url = "/events/"
+      weight = 7
+
+  [[main]]
+      name = "Contacts"
+      url = "/contacts/"
+      weight = 9
+
+
+
+
+
+# footer menu
+# [[footer]]
+# name = "About"
+# url = "about/"
+# weight = 2
+
+# [[footer]]
+# name = "Project"
+# url = "project/"
+# weight = 3
+
+# [[footer]]
+# name = "Service"
+# url = "service/"
+# weight = 4
+
+# [[footer]]
+# name = "Pricing"
+# url = "pricing/"
+# weight = 5
+
+# [[footer]]
+# name = "FAQ"
+# url = "faq/"
+# weight = 6
+
+# [[footer]]
+# name = "Contact"
+# url = "contact/"
+# weight = 7

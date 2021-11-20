@@ -1,0 +1,91 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- <section class="page-wrapper">
+  <div class="container">
+    <div class="row">
+        {{ .Content }}
+    </div>
+  </div>
+</section> -->
+
+
+
+{{ with .Params.equipment }}
+{{ if .enable }}
+<section class="aabout ssection">
+  <div class="container">
+
+    <div class="row">
+
+        {{ with .title }}
+          <h2>{{ . }}</h2>
+        {{ end }}
+
+        {{ range .items }}
+        <div class="col-md-6 col-sm-12 my-50">
+  
+          <div class="row my-50">
+            <div style="padding: 50px;" class="ppx-50 mmy-50 col-sm-6 col-xs-12">
+              {{ with .img }}
+                <img style="padding: 0;" class="img-responsive ppy-50 ppx-50" src="{{ . }}">
+              {{ end }}
+            </div>
+  
+            <div style="padding: 50px 0 0 0;" class="px-50 my-50 col-sm-6 col-xs-12">
+              {{ with .name }}<h4 class="">{{ . }}</h4>{{ end }}
+              {{ with .description }}<p><i>{{ . }}</i></p>{{ end }}
+            </div>
+  
+          </div>
+  
+        </div>
+        {{ end }}
+  
+    </div>
+
+
+
+
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+
+<!-- {{ with .Params.features }}
+{{ if .enable }}
+<section class="about-feature bg-dark section dark-service">
+  <div class="container">
+    {{ with .title }}
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title">
+          <h2>{{ . | markdownify }}</h2>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    <div class="row">
+      {{ range .feature_item }}
+      <div class="col-md-4">
+        <div class="service-item">
+          {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
+          {{ with .name }}<h4>{{ . | markdownify }}</h4>{{ end }}
+          {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }} -->
+
+
+
+
+{{ end }}
+

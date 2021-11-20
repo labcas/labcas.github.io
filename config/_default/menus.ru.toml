@@ -1,0 +1,110 @@
+############# Russian navigation ##############
+
+
+  [[main]]
+    name = "Главная"
+    url = "/"
+    weight = 1
+
+  [[main]]
+      name = "Сотрудники"
+      url = "/staff/"
+      weight = 2
+
+  [[main]]
+      identifier = "research"
+      name = "Исследования"
+      url = "/research/"
+      weight = 4
+
+      [[main]]
+          parent = "research"
+          name = "Направления"
+          # url = "/research/topics/"
+          url = "/topics/"
+          weight = 1
+
+      [[main]]
+          parent = "research"
+          name = "План"
+          # url = "/research/plan/"
+          url = "/plan/"
+          weight = 2
+
+      [[main]]
+          parent = "research"
+          name = "Результаты"
+          # url = "/research/results/"
+          url = "/results/"
+          weight = 3
+
+      [[main]]
+          parent = "research"
+          name = "Публикации"
+          # url = "/research/publications/"
+          url = "/publications/"
+          weight = 4
+
+  [[main]]
+      name = "Оборудование"
+      url = "/equipment/"
+      weight = 5
+
+  # [[main]]
+  #     name = "План"
+  #     url = "/plan/"
+  #     weight = 6
+
+  [[main]]
+      name = "Мероприятия"
+      url = "/events/"
+      weight = 7
+
+  # [[main]]
+  #     name = "Публикации"
+  #     url = "/publications/"
+  #     weight = 8
+
+  [[main]]
+      name = "Контакты"
+      url = "/contacts/"
+      weight = 9
+
+
+
+
+
+
+
+
+
+# footer menu
+# [[footer]]
+# name = "About"
+# url = "about/"
+# weight = 2
+
+# [[footer]]
+# name = "Project"
+# url = "project/"
+# weight = 3
+
+# [[footer]]
+# name = "Service"
+# url = "service/"
+# weight = 4
+
+# [[footer]]
+# name = "Pricing"
+# url = "pricing/"
+# weight = 5
+
+# [[footer]]
+# name = "FAQ"
+# url = "faq/"
+# weight = 6
+
+# [[footer]]
+# name = "Contact"
+# url = "contact/"
+# weight = 7
