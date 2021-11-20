@@ -4,6 +4,8 @@ title: "Оборудование"
 # description: "Serif is a modern business theme for Hugo."
 # date: 2021-11-15T22:49:45+03:00
 # draft: true
+description: "... О больших возможностях наших приборов ..."
+bg_image: "images/bg-pexels-hebert-santos.jpg"
 
 
 equipment:
