@@ -33,7 +33,7 @@ about:
 
 ######################### Portfolio ###############################
 portfolio:
-  # enable: true
+  enable: true
   bg_image: "images/feature-bg.jpg"
   title: "WE BELIEVE IN GREAT IDEAS"
   content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
@@ -52,13 +52,13 @@ portfolio:
 
 ############################# Service ############################
 service:
-  # enable: true
+  enable: true
   # service content comes from "service.md" file
 
 
 ############################ call to action ###########################
 cta:
-  # enable: true
+  enable: true
   bg_image: "images/call-to-action-bg.jpg"
   title: "We design delightful digital experiences."
   content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
@@ -69,7 +69,7 @@ cta:
 
 ############################# Funfacts ###############################
 funfacts:
-  # enable: true
+  enable: true
   title: "Fun Facts About Us"
   description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
   funfact_item:

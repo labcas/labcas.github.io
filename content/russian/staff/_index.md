@@ -15,7 +15,7 @@ staff:
     heads:
       title: "Руководитель -- ведущий ученый"
       items:
-        - img : "img/emilia-fridman-1.jpg"
+        - img : "/staff/img/emilia-fridman-1.jpg"
           name : "Эмилия Фридман"
           title : "Проф."
           position : "Тель-Авивский университет"
