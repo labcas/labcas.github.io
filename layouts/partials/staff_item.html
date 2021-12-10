@@ -1,23 +1,27 @@
 
 
-
-
-
-
-        <div class="col-md-6 col-sm-12 my-50">
+        <div class="col-md-6 col-sm-12 my-50" style="margin-top: 50px;">
   
           <div class="row my-50">
             <div style="padding: 0 20px 20px 20px;" class="ppx-50 mmy-50 col-sm-6 col-xs-12">
-              {{ with .img }}
+              {{ with .context.img }}
                 <img style="padding: 0;" class="img-responsive ppy-50 ppx-50" src="{{ . }}">
               {{ end }}
             </div>
   
             <div style="padding: 0 20px 20px 20px;" class="px-50 my-50 col-sm-6 col-xs-12">
-              {{ with .name }}<h4 class="">{{ . }}</h4>{{ end }}
-              {{ with .title }}<span>{{ . }}</span>{{ end }}
-              {{ with .position }}<br><span>{{ . }}</span>{{ end }}
+              {{ with .context.name }}<h4 class="">{{ . }}</h4>{{ end }}
+              {{ with .context.title }}<span>{{ . }}</span>{{ end }}
+              {{ with .context.position }}<br><span>{{ . }}</span>{{ end }}
               <!-- {{ with .bio }}<p><b>{{ T "bio" }}: </b><i>{{ . }}</i></p>{{ end }} -->
+
+              <!-- Button trigger modal -->
+              <div>
+              <button type="button" class="btn bbtn-sm bbtn-main" data-toggle="modal" data-target="#modal{{.index}}">
+                Подробнее
+              </button>
+              </div>
+
             </div>
   
           </div>
@@ -26,6 +30,37 @@
 
 
 
+<!-- Modal -->
+<div class="modal fade" id="modal{{.index}}" tabindex="-1" role="dialog" aria-labelledby="modalLabel{{.index}}" aria-hidden="true">
+  <div class="modal-dialog mmodal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div style="ppadding: 0 20px 20px 20px;" class="ppx-50 mmy-50 col-sm-6 col-xs-12">
+          {{ with .context.img }}
+            <img style="padding: 0;" class="img-responsive ppy-50 ppx-50" src="{{ . }}">
+          {{ end }}
+        </div>
 
 
+        {{ with .context.name }}<h4 class="">{{ . }}</h4>{{ end }}
+        {{ with .context.title }}<span>{{ . }}</span>{{ end }}
+        {{ with .context.position }}<br><span>{{ . }}</span>{{ end }}
+        {{ with .context.bio }}<p><b>{{ T "bio" }}: </b>{{ . }}</p>{{ end }}
+
+        <!-- <div class="clear"/> -->
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
 

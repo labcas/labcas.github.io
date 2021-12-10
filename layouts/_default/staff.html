@@ -11,6 +11,14 @@
 </section> -->
 
 
+
+
+
+
+
+
+
+
 {{ with .Params.staff }}
 {{ if .enable }}
 <section class="aabout ssection">
@@ -38,8 +46,9 @@
         {{ with .title }}
           <h2>{{ . }}</h2>
         {{ end }}
-        {{ range .items }}
-          {{ partial "partials/staff_item.html" . }}
+        {{ range $index, $element := .items }}
+          {{ partial "partials/staff_item.html" (dict "context" . "index" $index) }}
+          <!-- {{ partial "partials/staff_item.html" $element }} -->
         <!-- <div class="col-md-6 col-sm-12 my-50">
   
           <div class="row my-50">
@@ -68,8 +77,8 @@
         {{ with .title }}
           <h2>{{ . }}</h2>
         {{ end }}
-        {{ range .items }}
-          {{ partial "partials/staff_item.html" . }}
+        {{ range $index, $element := .items }}
+        {{ partial "partials/staff_item.html" (dict "context" . "index" $index) }}
         {{ end }}
       {{ end }}
     </div>
@@ -79,8 +88,8 @@
         {{ with .title }}
           <h2>{{ . }}</h2>
         {{ end }}
-        {{ range .items }}
-          {{ partial "partials/staff_item.html" . }}
+        {{ range $index, $element := .items }}
+        {{ partial "partials/staff_item.html" (dict "context" . "index" $index) }}
         {{ end }}
       {{ end }}
     </div>
@@ -90,8 +99,8 @@
         {{ with .title }}
           <h2>{{ . }}</h2>
         {{ end }}
-        {{ range .items }}
-          {{ partial "partials/staff_item.html" . }}
+        {{ range $index, $element := .items }}
+        {{ partial "partials/staff_item.html" (dict "context" . "index" $index) }}
         {{ end }}
       {{ end }}
     </div>
