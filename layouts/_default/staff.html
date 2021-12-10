@@ -11,34 +11,10 @@
 </section> -->
 
 
-
-
-
-
-
-
-
-
 {{ with .Params.staff }}
 {{ if .enable }}
 <section class="aabout ssection">
   <div class="container">
-    <!-- div class="row">
-      <div class="col-md-6">
-        <div class="about-img">
-          <img class="img-responsive" src="{{ .image | relURL }}">
-        </div>
-      </div>
-      <div class="col-md-6">
-        {{ with .title }}<h2 class="mt-40">{{ . | markdownify }}</h2>{{ end }}
-        {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-        {{ with .button }}
-        {{ if .enable }}
-        <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
-      </div>
-    </div -->
 
     {{ with .sections }}
     <div class="row">
@@ -47,27 +23,7 @@
           <h2>{{ . }}</h2>
         {{ end }}
         {{ range $index, $element := .items }}
-          {{ partial "partials/staff_item.html" (dict "context" . "index" $index) }}
-          <!-- {{ partial "partials/staff_item.html" $element }} -->
-        <!-- <div class="col-md-6 col-sm-12 my-50">
-  
-          <div class="row my-50">
-            <div style="padding: 50px;" class="ppx-50 mmy-50 col-sm-6 col-xs-12">
-              {{ with .img }}
-                <img style="padding: 0;" class="img-responsive ppy-50 ppx-50" src="{{ . }}">
-              {{ end }}
-            </div>
-  
-            <div style="padding: 50px 0 0 0;" class="px-50 my-50 col-sm-6 col-xs-12">
-              {{ with .name }}<h4 class="">{{ . }}</h4>{{ end }}
-              {{ with .title }}<span>{{ . }}</span>{{ end }}
-              {{ with .position }}<br><span>{{ . }}</span>{{ end }}
-              {{ with .bio }}<p><b>Bio: </b><i>{{ . }}</i></p>{{ end }}
-            </div>
-  
-          </div>
-  
-        </div> -->
+        {{ partial "partials/staff_item.html" (dict "context" .) }}
         {{ end }}
       {{ end }}
     </div>
@@ -78,7 +34,7 @@
           <h2>{{ . }}</h2>
         {{ end }}
         {{ range $index, $element := .items }}
-        {{ partial "partials/staff_item.html" (dict "context" . "index" $index) }}
+          {{ partial "partials/staff_item.html" (dict "context" .) }}
         {{ end }}
       {{ end }}
     </div>
@@ -89,7 +45,7 @@
           <h2>{{ . }}</h2>
         {{ end }}
         {{ range $index, $element := .items }}
-        {{ partial "partials/staff_item.html" (dict "context" . "index" $index) }}
+        {{ partial "partials/staff_item.html" (dict "context" .) }}
         {{ end }}
       {{ end }}
     </div>
@@ -100,7 +56,7 @@
           <h2>{{ . }}</h2>
         {{ end }}
         {{ range $index, $element := .items }}
-        {{ partial "partials/staff_item.html" (dict "context" . "index" $index) }}
+        {{ partial "partials/staff_item.html" (dict "context" .) }}
         {{ end }}
       {{ end }}
     </div>

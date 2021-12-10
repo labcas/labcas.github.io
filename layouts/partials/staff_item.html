@@ -1,5 +1,9 @@
 
 
+{{ $seed := "some string" }}
+{{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
+
+
         <div class="col-md-6 col-sm-12 my-50" style="margin-top: 50px;">
   
           <div class="row my-50">
@@ -16,11 +20,11 @@
               <!-- {{ with .bio }}<p><b>{{ T "bio" }}: </b><i>{{ . }}</i></p>{{ end }} -->
 
               <!-- Button trigger modal -->
-              <div>
-              <button type="button" class="btn bbtn-sm bbtn-main" data-toggle="modal" data-target="#modal{{.index}}">
-                Подробнее
+              <p>
+              <button type="button" class="btn bbtn-sm bbtn-main" data-toggle="modal" data-target="#modal_{{ $random }}">
+                {{ T "staff-more" }}
               </button>
-              </div>
+            </p>
 
             </div>
   
@@ -31,7 +35,7 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="modal{{.index}}" tabindex="-1" role="dialog" aria-labelledby="modalLabel{{.index}}" aria-hidden="true">
+<div class="modal fade" id="modal_{{ $random }}" tabindex="-1" role="dialog" aria-labelledby="modalLabel{{.index}}" aria-hidden="true">
   <div class="modal-dialog mmodal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -49,10 +53,10 @@
         </div>
 
 
-        {{ with .context.name }}<h4 class="">{{ . }}</h4>{{ end }}
+        {{ with .context.name }}<h3 class="">{{ . }}</h3>{{ end }}
         {{ with .context.title }}<span>{{ . }}</span>{{ end }}
         {{ with .context.position }}<br><span>{{ . }}</span>{{ end }}
-        {{ with .context.bio }}<p><b>{{ T "bio" }}: </b>{{ . }}</p>{{ end }}
+        {{ with .context.bio  | markdownify }}<p><h4>{{ T "bio" }} </h4>{{ . }}</p>{{ end }}
 
         <!-- <div class="clear"/> -->
       </div>
