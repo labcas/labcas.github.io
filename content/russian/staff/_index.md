@@ -15,62 +15,111 @@ staff:
     heads:
       title: "Руководитель -- ведущий ученый"
       items:
-        - img : "/staff/img/emilia-fridman-1.jpg"
+        - img : "/images/staff/emilia-fridman-1.jpg"
           name : "Эмилия Фридман"
           title : "Проф."
           position : "Тель-Авивский университет"
-          bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi gudl fgiusdl fuglfdi uslid ud"
+          bio : "Emilia Fridman received the M.Sc. degree from Kuibyshev State University, USSR, in 1981 and the Ph.D. degree from Voronezh State University, USSR, in 1986, all in mathematics. From 1986 to 1992 she was an Assistant and Associate Professor in the Department of Mathematics at Kuibyshev Institute of Railway Engineers, USSR. Since 1993 she has been at Tel Aviv University, where she is currently Professor at the School of Electrical Engineering. She has held numerous visiting positions including INRIA in Rocquencourt (France), Ecole Centrale de Lille (France), Valenciennes University (France), Leicester University (UK), Kent University (UK), CINVESTAV (Mexico), Zhejiang University (China), St. Petersburg IPM (Russia), Melbourne University (Australia), INRIA Saclay (France), KTH (Sweden). Her research interests include time-delay systems, networked control systems, distributed parameter systems, robust control, singular perturbations and nonlinear control. She has published about 200 journal articles. She is the author/co-author of two monographs - ''Introduction to Time-Delay Systems: Analysis and Control\" (Birkhauser, 2014) and ‘’ Networked Control under Communication Constraints: A Time-Delay Approach” (Springer, 2020). She serves/served as Associate Editor in Automatica, SIAM Journal on Control and Optimization and IMA Journal of Mathematical Control and Information. In 2014 she was Nominated as a Highly Cited Researcher by Thomson ISI. Since 2018, she has been the incumbent for the Chana and Heinrich Manderman Chair on System Control at Tel Aviv University. She is an IEEE Fellow from 2019. In 2021 she was recipient of the IFAC Delay Systems Life Time Achievement Award and of the Kadar Award for outstanding research at Tel Aviv University, see
+https://www.youtube.com/watch?v=K3XzmxWQ1GU
+She is currently a member of the IFAC Council."
 
     key_executors:
       title: "Ключевые исполнители"
       items:
-        - img : "img/Karl_Marx.png"
+        - img : "/images/staff/Беляев_АК.jpg"
           name : "Беляев Александр Константинович"
           title : "зав.лаб., чл.-корр. РАН, д.ф.-м.н."
           position : "Зам. руководителя лаборатории"
-          bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi gudl fgiusdl fuglfdi uslid ud"
+          bio : "Беляев Александр Константинович, доктор физико-математических наук, заведующий лабораторией мехатроники Института проблем машиноведения РАН, директор Высшей школы механики и процессов управления физико-механического института Санкт-Петербургского политехнического университета Петра Великого, профессор кафедры теоретической и прикладной механики математико-механического факультета Санкт-Петербургского государственного университета. Член-корреспондент РАН, иностранный член Австрийской академии наук, почетный доктор Университета им. Иоганна Кеплера (Австрия), член президиума Российского национального комитета по теоретической и прикладной механике, член Консультативного Совета ЕВРОМЕХа, член комиссии симпозиумов IUTAM, лауреат премии имени М.А.Лаврентьева РАН и премии имени П.Л.Чебышева Правительства Санкт-Петербурга. Главный редактор журнала Вестник Санкт-Петербургского университета. Математика. Механика. Астрономия.
 
-        - img : "img/Karl_Marx.png"
+В 1976 году окончил физико-механического факультет Ленинградского политехнического  института. В 2001 году защитил диссертацию на соискание ученой степени доктора физико-математических наук. Является автором более 300 научных публикаций. Область научных интересов — высокочастотная динамика сложных динамических систем, вибрация и устойчивость конструкций, стохастическая волновая динамика и др. 
+"
+
+        - img : "/images/staff/Fradkov2016.jpg"
           name : "Фрадков Александр Львович"
           title : "зав.лаб., д.т.н."
           position : "Ответственный исполнитель"
-          bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi gudl fgiusdl fuglfdi uslid ud"
+          bio : "Фрадков Александр Львович, доктор технических наук, профессор, заведующий лабораторией
+управления сложными системами Института проблем машиноведения РАН, профессор кафедры
+теоретической кибернетики математико-механического факультета Санкт-Петербургского
+государственного университета, директор Научно-образовательного центра «Искусственный
+интеллект в киберфизических системах» ИПМаш РАН, научный руководитель научно-
+образовательного центра «Математическая робототехника и искусственный интеллект» СПбГУ.
 
-        - img : "img/Karl_Marx.png"
+В 1971 году окончил математико-механический факультет Ленинградского государственного
+университета. В 1986 году защитил диссертацию на соискание ученой степени доктора
+технических наук. Является автором более 700 научных публикаций, в том числе десяти патентов и
+17 монографий. Область научных интересов — нелинейное и адаптивное управление,
+математическое моделирование, искусственный интеллект в киберфизических системах и др."
+
+        - img : "/images/staff/Furtat.png"
           name : "Фуртат Игорь Борисович"
           title : "зав.лаб., д.т.н."
           position : "Ответственный исполнитель"
-          bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi"
+          bio : "Фуртат Игорь Борисович, доктор технических наук, профессор, заведующий лабораторией «Адаптивное и интеллектуальное управление сетевыми и распределенными системами» Института проблем машиноведения РАН, профессор Университета ИТМО, старший член Институт инженеров электротехники и электроники (IEEE Senior Member), член международной общественной организации \"Академия навигации и управления движением\", associate editor двух международных конференций: American Control Conference и IEEE Conference on Decision and Control, лауреат \"Best paper award\" (9th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops, 2017, Мюнхен, Германия), медаль РАН для молодых ученых по итогам конкурса 2016 года в области проблем машиностроения, механики и процессов управления.
 
-        - img : "img/Karl_Marx.png"
+В 2005 году окончил Астраханский государственный технический университет. В 2012 году защитил диссертацию на соискание ученой степени доктора технических  наук. Является автором более 170 научных публикаций, в том числе двух монографий. Область научных интересов - адаптивное и робастное управление, управление сетевыми и мультиагентными системами, управление нелинейными системами и системами с запаздыванием, динамическая компенсация возмущений, управление в нефтегазодобывающей промышленности и синхронизация в электроэнергетических сетях.
+"
+
+        - img : "/images/staff/Andri_Nov21a.jpg"
           name : "Андриевский Борис Ростиславич"
           title : "в.н.с. , д.т.н."
           # position : "head"
-          bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi gudl fgiusdl fuglfdi uslid ud"
+          bio : "доктор технических наук, доцент, ведущий научный соотрудник либоратории управления сложными системами Института проблем машиноведения РАН, главный научный сотрудник кафедры прикладной кибернетики математико-механического факультета Санкт-Петербургского государственного университета, ведущий научный сотрудник НИЧ Балтийского государственного технического университета \"Военмех\".
 
-        - img : "img/Karl_Marx.png"
+В 1972 г. закончил Ленинградский механический институт (в настоящее время - БГТУ \"Военмех\") по кафедре систем автоматического управления. Получил степень кандидата технических наук в 1979 г. и звание доцента в 1980 г. В 2005 г. защитил диссертацию на соискание ученой степени доктора технических наук. Является автором более 280 научных публикаций, в том числе - трех патентов, семи монографий и 17 учебных пособий. 
+
+Область научных интересов: адаптивное управление, системы с переменной структурой, управление колебаниями, прикладные задачи управления летательными аппаратами, механическими системами и передачи данных.
+"
+
+        - img : "/images/staff/Граничин.jpg"
           name : "Граничин Олег Николаевич"
           title : "проф. СПбГУ д.ф.-м.н."
           # position : "head"
-          bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi gudl fgiusdl fuglfdi uslid ud"
+          bio : "доктор физико-математических наук, профессор автор (соавтор) пяти научных монографий и нескольких учебных пособий.  
+Им написано более 100 статей, опубликованных в авторитетных реферируемых научных журналах, 
+и еще более 150 - в материалах научных конференций. Граничин О.Н. имеет два патента на изобретения
+ «Строгально-пильный станок», «Аэродинамическое крыло летательного аппарата с адаптивно изменяющейся
+ поверхностью» и четыре свидетельства о регистрации программ для ЭВМ: \"SmartFly\", “ПК УНИВ” ,
+ “ОРТА” и “MAGS”. Предложенное им в студенческой курсовой работе (1981г.) описание минимаксного
+ стабилизирующего регулятора для неминимальнофазового ОУ явилось одним из первых в мире существенным 
+теоретическим результатом популярной в последнее время теории ℓ1-оптимизации.
 
-        - img : "img/Karl_Marx.png"
+Научные интересы: мультиагентное адаптивное управление, интеллектуальные встроенные системы,
+ распределенные алгоритмы решения задач, кластеризация (data mining), общие вопросы теории вычислений,
+ рандомизированные алгоритмы многомерного оценивания и оптимизации, 
+идентификация систем, обучающиеся системы, квантовые компьютеры и т. п.
+    Граничин О.Н. член Академии навигации и управления движением, Senior member of IEEE, 
+IEEE Control System Society, member of AMS (American Mathematical Society).
+    Граничин О.Н. член редколлегии журнала «Автоматика и телемеханика», исполнительный редактор 
+журнала \"Cybernetics and Physics\", ассоциированный редактор IEEE Control System Society Conference 
+Editorial Board,  член технического комитета IFAC TC 1.1. 
+ “Modelling, Identification and Signal Processing”.
+"
+
+        - img : "/images/staff/Karl_Marx.png"
           name : "Матвеев Алексей Серафимович"
           title : "проф. СПбГУ д.ф.-м.н."
           # position : "head"
           bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi gudl fgiusdl fuglfdi uslid ud"
 
-        - img : "img/Karl_Marx.png"
+        - img : "/images/staff/Орлов.jpg"
           name : "Орлов Юрий Владимирович"
           title : "проф. CICESE,(Мексика), д.ф.-м.н."
           # position : "head"
-          bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi gudl fgiusdl fuglfdi uslid ud"
+          bio : "Орлов Юрий Владимирович, доктор физико-математических наук, профессор центра научных исследований и высшего образования г. Энсенады, Мексика.
 
-        - img : "img/Karl_Marx.png"
+В 1979 году окончил механико-математический факультет Московского государственного университета имени М.В. Ломоносова. В 1989 году защитил диссертацию на соискание ученой степени доктора физико-математических наук. Является автором более 300 научных публикаций, в том числе 6 монографий. Область научных интересов — математические методы в теории управления и их приложения к механическим системам, негладкое управление в конечномерных и бесконечномерных пространствах, стабилизация за конечное время и др.
+"
+
+        - img : "/images/staff/Порубов.jpg"
           name : "Порубов Алексей Викторович"
           title : "зав.лаб, д.ф.-м.н."
           # position : "head"
-          bio : "fdg fgsdfg sdfg sdfgh sdflgs dflghsdflg hsdfligu sdfgsdifug lsdfi gudl fgiusdl fuglfdi uslid ud"
+          bio : "доктор физико-математических наук, заведующий лабораторией микромеханики материалов Института Проблем Машиноведения РАН, профессор Высшей Школы Теоретической Иеханики  Санкт-Петербургского государственного Технического Университета имени Петра Великого,  член Европейского сообщества механиков (Euromech)  м Российского Акустического общества.
+
+В 1987 году окончил физико-механический факультет Ленинградского Политехнического института. В 2007 году защитил диссертацию на соискание ученой степени доктора физико-математических  наук. Является автором более 120 научных публикаций, в том числе двух  монографий. Область научных интересов - нелинейное моделирование динамических процессов в материалах со сложной внутренней структурой, аналитическое и численной исследование решений нелинейных дифференциальных уравнений в частных производных.
+"
 
 
 

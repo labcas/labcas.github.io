@@ -67,18 +67,6 @@
                 href="https://labcas.evarist.ru/tags/"
                 />
   </url><url>
-    <loc>https://labcas.evarist.ru/events/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://labcas.evarist.ru/en/events/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://labcas.evarist.ru/events/"
-                />
-  </url><url>
     <loc>https://labcas.evarist.ru/contacts/</loc>
     <xhtml:link
                 rel="alternate"
@@ -89,6 +77,18 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://labcas.evarist.ru/contacts/"
+                />
+  </url><url>
+    <loc>https://labcas.evarist.ru/events/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://labcas.evarist.ru/en/events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://labcas.evarist.ru/events/"
                 />
   </url><url>
     <loc>https://labcas.evarist.ru/topics/</loc>
