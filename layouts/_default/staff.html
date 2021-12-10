@@ -23,7 +23,7 @@
           <h2>{{ . }}</h2>
         {{ end }}
         {{ range $index, $element := .items }}
-        {{ partial "partials/staff_item.html" (dict "context" .) }}
+        {{ partial "partials/staff_item.html" . }}
         {{ end }}
       {{ end }}
     </div>
@@ -34,7 +34,7 @@
           <h2>{{ . }}</h2>
         {{ end }}
         {{ range $index, $element := .items }}
-          {{ partial "partials/staff_item.html" (dict "context" .) }}
+        {{ partial "partials/staff_item.html" . }}
         {{ end }}
       {{ end }}
     </div>
@@ -45,7 +45,7 @@
           <h2>{{ . }}</h2>
         {{ end }}
         {{ range $index, $element := .items }}
-        {{ partial "partials/staff_item.html" (dict "context" .) }}
+        {{ partial "partials/staff_item.html" . }}
         {{ end }}
       {{ end }}
     </div>
@@ -56,7 +56,7 @@
           <h2>{{ . }}</h2>
         {{ end }}
         {{ range $index, $element := .items }}
-        {{ partial "partials/staff_item.html" (dict "context" .) }}
+        {{ partial "partials/staff_item.html" . }}
         {{ end }}
       {{ end }}
     </div>
