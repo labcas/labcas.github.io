@@ -6,10 +6,40 @@
     url = "/"
     weight = 1
 
+#   [[main]]
+#       name = "Сотрудники"
+#       url = "/staff/"
+#       weight = 2
+
   [[main]]
-      name = "Сотрудники"
-      url = "/staff/"
-      weight = 2
+        identifier = "laboratory"
+        name = "Лаборатория"
+    #   url = "/research/"
+        weight = 3
+
+        [[main]]
+            parent = "laboratory"
+            name = "О Лаборатории"
+            url = "/about/"
+            weight = 1
+
+        [[main]]
+            parent = "laboratory"
+            name = "Сотрудники"
+            url = "/staff/"
+            weight = 2
+
+        [[main]]
+            parent = "laboratory"
+            name = "Оборудование"
+            url = "/equipment/"
+            weight = 5
+
+        [[main]]
+            parent = "laboratory"
+            name = "Контакты"
+            url = "/contacts/"
+            weight = 9
 
   [[main]]
       identifier = "research"
@@ -45,30 +75,20 @@
           url = "/publications/"
           weight = 4
 
-  [[main]]
-      name = "Оборудование"
-      url = "/equipment/"
-      weight = 5
-
-  # [[main]]
-  #     name = "План"
-  #     url = "/plan/"
-  #     weight = 6
+#   [[main]]
+#       name = "Оборудование"
+#       url = "/equipment/"
+#       weight = 5
 
   [[main]]
       name = "Мероприятия"
       url = "/events/"
       weight = 7
 
-  # [[main]]
-  #     name = "Публикации"
-  #     url = "/publications/"
-  #     weight = 8
-
-  [[main]]
-      name = "Контакты"
-      url = "/contacts/"
-      weight = 9
+#   [[main]]
+#       name = "Контакты"
+#       url = "/contacts/"
+#       weight = 9
 
 
 

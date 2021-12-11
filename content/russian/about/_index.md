@@ -1,11 +1,158 @@
 ---
-title: "Результаты"
+title: "О Лаборатории"
 # meta_title: 'Hugo Serif Theme'
-description: "Serif is a modern business theme for Hugo.111"
+# description: "Serif is a modern business theme for Hugo.111"
 date: 2021-11-15T22:49:45+03:00
 # draft: true
 ---
 
+
+
+
+
+
+Тема научного исследования по мегагранту - теоретические основы цифровизации
+анализа и синтеза сложных механических систем, сетей и сред.
+
+
+Цифровизация (digitization,digitalization) – это внедрение цифровых технологий в
+различных областях науки, техники и производства, ставшее недавно актуальным в связи
+с повсеместным использованием компьютерных технологий. Предлагаемый проект
+посвящен развитию методов цифровизации для анализа и синтеза сложных механических
+систем с приложением к проектированию объектов машиностроения: перспективного
+вибрационного, энергетического, химического оборудования, робототехнических
+комплексов, летательных аппаратов. Проект основан на методах, предложенных в 2001-
+2010 гг в цикле из шести работ ведущего ученого, профессора Тель-Авивского
+университета Эмилии Фридман, позволяющих повысить точность, безопасность и
+эффективность цифровизированных систем, оценить предельные возможности
+цифровизации. Результаты Э.Фридман используются во многих странах: каждая из ее
+основополагающих работ имеет более, чем по 700 цитирований, ее Н-индекс достигает–
+60. Коллектив ИПМаш РАН имеет опыт сотрудничества с Э.Фридман в 2011-2018 гг. в
+рамках проектов ФЦП «Кадры» и РНФ. В создаваемой лаборатории результаты школы
+Э.Фридман и результаты коллектива к будут применяться к задачам управления в
+механике и машиностроении с целью повышения стабильности, безопасности и качества
+систем, снижения эксплуатационных затрат.
+
+
+В 2021 г в ИПМаш РАН под руководством Э.Фридман создана лаборатория
+«Цифровизация, анализ и синтез сложных механических систем, сетей и сред»
+(ЦАС). В руководстве проектом участвуют также зам.руководителя лаборатории ЦАС,
+член-корреспондент РАН, доктор физико-математических наук А.К.Беляев,
+ответственные исполнители доктор технических наук А.Л.Фрадков и доктор технических
+наук И.Б.Фуртат.
+
+
+Исследования проводятся в рамках пяти направлений,
+
+
+1. Цифровое интеллектуальное управление многороторными вибрационными
+установками. Задачи: разработка фундаментальных основ и оценка предельных
+возможностей цифрового и адаптивного (интеллектуального) управления для
+повышения эффективности вибрационных машин.
+
+
+2. Автономная навигация и управление многоагентными робототехническими и
+мехатронными комплексами. Задачи: разработка методологии анализа и синтеза
+эффективных и строго обоснованных алгоритмов децентрализованной автономной
+навигации многоагентных робототехнических комплексов в условиях
+нерегулярного или скудного информационного обмена.
+
+
+3. Адаптивное управление и оценивание для летательных аппаратов при
+больших задержках и ограничениях на каналы связи. Задачи: разработка
+алгоритмов управления при существенной неполноте информации для выполнения
+маневров современных аэрокосмических систем.
+
+
+4. Разработка методов цифрового управления нелинейными пространственно
+распределенными системами и прочностными свойствами 
+нелинейных акустических метаматериалов. Задачи: создание серии цифровых
+алгоритмов для подавления и возбуждения заданных форм колебаний в
+протяженных механических объектах для решения прикладных задач, в т.ч.
+повышение эффективности шумопоглощающих экранов и подавление колебаний
+протяженных конструкций (мостов, кранов и т.п.); синтеза нелинейных 
+акустических метаматериалов  с заданными свойствами на основе  цифрового
+управления.
+
+
+5. Разработка новых методов и алгоритмов цифрового адаптивного управления
+непрерывными распределенными системами в условиях значительных
+возмущений. Задачи: повышение точности и безопасности работы объектов
+энергетического и химического машиностроения, таких, как комплексы
+энергомашин и ректификационные колонны.
+Ожидаемые результаты: Методы и алгоритмы цифрового адаптивного управления
+распределенными системами в условиях неопределенности параметров, существенных
+возмущений и запаздывания в цифровых каналах связи. Методы и алгоритмы адаптивного
+прогноза значений регулируемых переменных в условиях больших запаздываний в
+каналах. Оптимальный расчет параметров регуляторов для минимизации энергозатрат и
+отклонения от заданного режима в энергомашинах и ректификационных колоннах.
+
+
+**********************************************************************
+Theoretical foundations of digitization for analysis and design of complex mechanical systems, networks and
+media
+
+
+Digitization is the introduction of digital technologies in various fields of science, technology and
+industry, which has recently become important due to the widespread use of computer technologies.
+The proposed project is devoted to the development of digitization methods for the analysis and
+synthesis of complex mechanical systems with an application to the design of mechanical engineering
+objects: vibration, power, chemical units, robotic systems and aircrafts. The project is based on the
+methods proposed in 2001-2010 in a series of six papers by the leading scientist E. Fridman, allowing to
+increase the accuracy, safety and efficiency of digilized systems, to assess the ultimate possibilities of
+digitization. E. Fridman&#39;s results are used in many countries: each of her six fundamental works has
+more than 700 citations, her H-index exceeds 60. The team has experience of cooperation with E.
+Fridman in 2011-2018. within the framework of the projects of the federal program &quot;Cadres&quot; and the
+RSF. In the laboratory being created, the results of the E. Fridman school and the results of the team will
+be applied to control problems in mechanics and mechanical engineering in order to increase the
+stability, safety and quality of systems, and to reduce operating costs.
+Research are carried out in five areas,
+
+
+1. Digital intelligent control of multi-rotor vibrating machines. Tasks: development of fundamental
+foundations and assessment of the limiting capabilities of digital and adaptive (intelligent) control to
+improve the efficiency of vibration machines.
+
+
+2. Autonomous navigation and control of multi-agent robotic and mechatronic complexes. Objectives:
+development of a methodology for the analysis and synthesis of effective and well-grounded algorithms
+for decentralized autonomous navigation of multi-agent robotic systems in conditions of irregular or
+poor information exchange.
+
+
+3. Adaptive control and estimation for aircraft with high delays and restrictions on communication
+channels. Tasks: development of control algorithms with significant incompleteness of information for
+performing maneuvers of modern aerospace systems.
+
+
+4. Development of methods for digital control of nonlinear spatially distributed systems and strength
+properties of nonlinear acoustic metamaterials. Tasks: creation of a series of digital algorithms for
+suppression and excitation of specified vibration modes in extended mechanical objects for solving
+applied problems, incl. increasing the efficiency of noise-absorbing screens and suppressing vibrations of
+extended structures (bridges, cranes, etc.); synthesis of nonlinear acoustic metamaterials with specified
+properties based on digital control.
+
+
+5. Development of new methods and algorithms for digital adaptive control of continuous distributed
+systems in conditions of significant disturbances. Objectives: improving the accuracy and safety of
+power and chemical engineering facilities, such as power machine complexes and rectification columns.
+Expected results: Methods and algorithms for digital adaptive control of distributed systems in
+conditions of parameter uncertainty, significant disturbances and delays in digital communication
+channels. Methods and algorithms for adaptive forecasting of the values ​​of controlled variables in
+conditions of large delays in the channels. Optimal controller design for minimization of the energy
+consumption and deviations from the set mode in power machines and rectification columns.
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
 ## Планируемые показатели 2021 г
 
 Количество статей в изданиях, индексируемых в Web of
@@ -168,5 +315,5 @@ Science Core Collection, - 5, в т.ч. входящих в 1-й
   - организация международной конференции в 2022 г
   - получение патента и коммерч. контракта в 2022 г
   - защита диссертаций:2022 – 1 канд, 2023 – 2 канд, 1 док
-
+ -->
 
