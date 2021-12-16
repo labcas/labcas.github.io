@@ -103,8 +103,8 @@ staff:
           “Modelling, Identification and Signal Processing”.
           "
 
-        - img : "/images/staff/Karl_Marx.png"
-          name : "Матвеев Алексей Серафимович"
+        - name : "Матвеев Алексей Серафимович"
+        # - img : "/images/staff/Karl_Marx.png"
           title : "проф. СПбГУ д.ф.-м.н."
           # position : "head"
           bio : "xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx"
