@@ -167,6 +167,7 @@ staff:
            Australia) и др.
           "
 
+
         - img : "/images/staff/Орлов.jpg"
           name : "Орлов Юрий Владимирович"
           title : "проф. CICESE,(Мексика), д.ф.-м.н."
