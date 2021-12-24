@@ -104,7 +104,7 @@ staff:
           "
 
         - name : "Матвеев Алексей Серафимович"
-          img : "/images/staff/Матвеев_АС.png"
+          img : "/images/staff/MatveevAS.png"
           title : "проф. СПбГУ д.ф.-м.н."
           # position : "head"
   #         bio : "Родился 12 июня 1954 года; закончил  математико-механический
