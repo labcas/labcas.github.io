@@ -1,0 +1,12 @@
+{
+  "name": "Цифровизация, анализ и синтез сложных механических систем, сетей и сред",
+  "short_name": "Цифровизация, анализ и синтез сложных механических систем, сетей и сред",
+  "lang": "ru-RU",
+  "theme_color": "#655e7a",
+  "background_color": "#fff",
+
+  
+  
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}
