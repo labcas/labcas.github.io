@@ -2,3 +2,6 @@
 # languageCode = 'ru-RU'
 # languageCode = 'en-us'
 # title = 'My New Hugo Site'
+
+[Params]
+publishDir = 'docs'
