@@ -39,14 +39,56 @@
       {{ end }}
     </div>
 
+
+    <div class="row">
+      {{ with .doctors }}
+        {{ with .title }}
+          <h2>{{ . }}</h2>
+        {{ end }}
+        <ul style="padding: 20px 20px 20px 20px;">
+          {{ range $index, $element := .items }}
+            {{ with .name }}<li><h4 class="">{{ . }}</h4></li>{{ end }}
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+
+    <div class="row">
+      {{ with .candidates }}
+        {{ with .title }}
+          <h2>{{ . }}</h2>
+        {{ end }}
+        <ul style="padding: 20px 20px 20px 20px;">
+          {{ range $index, $element := .items }}
+            {{ with .name }}<li><h4 class="">{{ . }}</h4></li>{{ end }}
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+
     <div class="row">
       {{ with .executors }}
         {{ with .title }}
           <h2>{{ . }}</h2>
         {{ end }}
-        {{ range $index, $element := .items }}
-        {{ partial "partials/staff_item.html" . }}
+        <ul style="padding: 20px 20px 20px 20px;">
+          {{ range $index, $element := .items }}
+            {{ with .name }}<li><h4 class="">{{ . }}</h4></li>{{ end }}
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+
+    <div class="row">
+      {{ with .graduates }}
+        {{ with .title }}
+          <h2>{{ . }}</h2>
         {{ end }}
+        <ul style="padding: 20px 20px 20px 20px;">
+          {{ range $index, $element := .items }}
+            {{ with .name }}<li><h4 class="">{{ . }}</h4></li>{{ end }}
+          {{ end }}
+        </ul>
       {{ end }}
     </div>
 
@@ -55,11 +97,15 @@
         {{ with .title }}
           <h2>{{ . }}</h2>
         {{ end }}
-        {{ range $index, $element := .items }}
-        {{ partial "partials/staff_item.html" . }}
-        {{ end }}
+        <ul style="padding: 20px 20px 20px 20px;">
+          {{ range $index, $element := .items }}
+            {{ with .name }}<li><h4 class="">{{ . }}</h4></li>{{ end }}
+          {{ end }}
+        </ul>
       {{ end }}
     </div>
+
+
 
     {{ end }}
 

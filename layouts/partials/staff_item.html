@@ -7,13 +7,23 @@
         <div class="col-md-6 col-sm-12 my-50" style="margin-top: 50px;">
   
           <div class="row my-50">
-            <div style="padding: 0 20px 20px 20px;" class="ppx-50 mmy-50 col-sm-6 col-xs-12">
+            <!--div style="padding: 0 20px 20px 20px;" class="ppx-50 mmy-50 col-sm-6 col-xs-12">
               {{ with .img }}
                 <img style="padding: 0;" class="img-responsive ppy-50 ppx-50" src="{{ . }}">
               {{ end }}
-            </div>
+            </div-->
   
-            <div style="padding: 0 20px 20px 20px;" class="px-50 my-50 col-sm-6 col-xs-12">
+            {{ with .img }}
+              <div style="padding: 0 20px 20px 20px;" class="ppx-50 mmy-50 col-sm-6 col-xs-12">
+                <img style="padding: 0;" class="img-responsive ppy-50 ppx-50" src="{{ . }}">
+              </div>
+            {{ end }}
+  
+            {{ with .img }}
+              <div style="padding: 0 20px 20px 20px;" class="px-50 my-50 col-sm-6 col-xs-12">
+            {{ else }}
+              <div style="padding: 0 20px 0px 20px;" class="px-50 my-50 col-sm-6 col-xs-12">
+            {{ end }}
               {{ with .name }}<h4 class="">{{ . }}</h4>{{ end }}
               {{ with .title }}<span>{{ . }}</span>{{ end }}
               {{ with .position }}<br><span>{{ . }}</span>{{ end }}
@@ -21,10 +31,14 @@
 
               <!-- Button trigger modal -->
               <p>
-              <button type="button" class="btn bbtn-sm bbtn-main" data-toggle="modal" data-target="#modal_{{ $random }}">
-                {{ T "staff-more" }}
-              </button>
-            </p>
+
+                {{ with .bio }}
+                  <button type="button" class="btn bbtn-sm bbtn-main" data-toggle="modal" data-target="#modal_{{ $random }}">
+                    {{ T "staff-more" }}
+                  </button>
+                {{ end }}
+
+              </p>
 
             </div>
   
