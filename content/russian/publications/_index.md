@@ -86,5 +86,38 @@ November 2021. https://doi.org/10.1016/j.jfranklin.2021.11.010
 проблем машиноведения Российской академии наук
 
 
+## ПУБЛИКАЦИИ ПРИ ПОДДЕРЖКЕ МЕГАГРАНТА 075-15-2021-573 В 2022 г.
+
+В 2022 году в рамках мегагранта опубликованы 10 статьей, индексируемые в базе данных Web of Science Core Collection, из которых 5 статей в журналах из Q1 (одна из них – совместная публикация с ведущим ученым Э. Фридман) и 2 статьи в журналах из Q2.
+
+Статьи в журналах Q1 WoS:
+
+1.	Aleksandrov A.Yu., Tikhonov A.A. Application of a PID-like control to the problem of triaxial electrodynamic attitude stabilization of a satellite in the orbital frame // Aerospace Science and Technology, Volume 127, August 2022, 107720 https://doi.org/10.1016/j.ast.2022.107720
+
+2.	Nekhoroshikh A.N., Efimov D., Fridman E., Perruquetti W., Furtat I.B., Polyakov A. Practical fixed-time ISS of neutral time-delay systems with application to stabilization by using delays // Automatica, Volume 143, 2022, https://doi.org/10.1016/j.automatica.2022.110455
+
+3.	Pechen A.N., Borisenok S., Fradkov A.L. Energy control in a quantum oscillator using coherent control and engineered environment // Chaos, Solitons & Fractals, Volume 164, 2022, https://doi.org/10.1016/j.chaos.2022.112687.
+
+4.	Ivanov D., Granichin O., Pankov V., Volkovich Z. Design of 1 New Suboptimal Fractional Delays Controller for Discrete Non Minimum Phase System under Unknown-but-Bounded Disturbance // Mathematics. 2022, 10, 69. https:// doi.org/10.3390/math10010069
+
+5.	Sarafraz M.S., Proskurnikov A.V., Tavazoei M.S., Esfahani P.M. Robust Output Regulation: Optimization-Based Synthesis and Event-Triggered Implementation // IEEE Transactions on Automatic Control. 2022. Vol. 67, no. 7, pp. 3529-3536, doi: 10.1109/TAC.2021.3097285.
+
+
+Статьи в журналах Q2 WoS:
+
+1.	Aleksandrov A.Y., Tikhonov A.A. Attitude stabilization of a rigid body under disturbances with zero mean values // Acta Mech, 233, pp. 1231–1242 (2022). https://doi.org/10.1007/s00707-022-03163-0
+
+2.	Andrievsky B.R., Zaitceva I.S. Symmetrical Control Law for Chaotization of Platform Vibrations // Symmetry. 2022. 14 (11), 2460; https://doi.org/10.3390/sym14112460
+
+
+Статьи в других журналах WoS (из них 1 статья Q1 Scopus и 1 статья Q2 Scopus):
+
+1.	Aleksandrov A., Andriyanova N. Distributed Algorithms for Mobile Agent Deployment on a Line Segment Under Switching Topology and Communication Delays // IEEE Control Systems Letters, Vol. 6, 2022. https://doi.org/10.1109/LCSYS.2022.3183956 (Q1 Scopus).
+
+2.	Fradkov A.L., Kovalchukov A., Andrievsky B. ParameterEstimation for Hindmarsh–Rose Neurons // Electronics. 2022, 11, 885. https:// doi.org/10.3390/electronics11060885 (Q2 Scopus).
+
+3.	Aleksandrov A., Efimov D. On stability of mechanical systems with homogeneous and delayed forces // International Journal of Control, 2022, https:// doi.org/10.1080/00207179.2022.2075793
+
+
 
 
