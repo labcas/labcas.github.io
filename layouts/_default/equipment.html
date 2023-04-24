@@ -11,6 +11,7 @@
 </section> -->
 
 
+<!--
 
 {{ with .Params.equipment }}
 {{ if .enable }}
@@ -53,39 +54,24 @@
 {{ end }}
 {{ end }}
 
+-->
 
 
-<!-- {{ with .Params.features }}
-{{ if .enable }}
-<section class="about-feature bg-dark section dark-service">
+
+
+<section class="page-wrapper">
   <div class="container">
-    {{ with .title }}
     <div class="row">
-      <div class="col-md-12">
-        <div class="title">
-          <h2>{{ . | markdownify }}</h2>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-    <div class="row">
-      {{ range .feature_item }}
-      <div class="col-md-4">
-        <div class="service-item">
-          {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
-          {{ with .name }}<h4>{{ . | markdownify }}</h4>{{ end }}
-          {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-        </div>
-      </div>
-      {{ end }}
+        {{ .Content }}
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }} -->
-
 
 
 
 {{ end }}
+
+
+
+
 
